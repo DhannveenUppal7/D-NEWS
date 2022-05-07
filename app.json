@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "d-news",
-    "slug": "d-news",
+    "name": "D-NEWS",
+    "slug": "D-NEWS",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "d.dhannveenuppal7.DNEWS"
     },
     "web": {
       "favicon": "./assets/favicon.png"
