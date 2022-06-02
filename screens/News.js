@@ -17,7 +17,7 @@ const News = ({ navigation }) => {
 
   useEffect(async () => {
     setLoading(true);
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=adc35d0ba6834ceab9453d970a3079b8`;
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=`;
     let data = await fetch(url);
     let parsedData = await data.json();
 
